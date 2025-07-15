@@ -1,11 +1,7 @@
 # 🧮 CSV to BIN Converter
-
 A simple Python GUI tool that converts a CSV file of hex values into a binary (`.bin`) file. Designed for firmware developers, embedded engineers, and anyone needing a clean UI for generating binary files from hex-formatted CSVs.
 
----
-
 ## ✨ Features
-
 - 🖱️ **Point-and-click interface** – no command line needed
 - 🔁 **Remembers output folder** from last session
 - 🧠 **Auto-fills filename** based on selected CSV
@@ -13,22 +9,13 @@ A simple Python GUI tool that converts a CSV file of hex values into a binary (`
 - 📦 Built with `tkinter` and `Pillow` for a lightweight experience
 - 🖼️ Includes icons for a friendly UI
 
----
-
 ## 📷 Interface Overview
-
-
 Below, users select a CSV file and an output location. Clicking **Convert** writes the `.bin` file with the raw hex bytes from the CSV.
 
----
-
-
 ## 📂 File Format
-CSV files should contain hexadecimal byte values (e.g., 85,06,FF,7C)
-
-The app strips whitespace and empty values
-
-Each value is converted to a raw byte (0x85, 0x06, etc.)
+- CSV files should contain hexadecimal byte values (e.g., 85,06,FF,7C)
+- The app strips whitespace and empty values
+- Each value is converted to a raw byte (0x85, 0x06, etc.)
 
 🛠️ Customization
 Place your icons in a folder named icons/ next to main.py:
@@ -49,7 +36,6 @@ csv-to-bin/
 
 ## 🔧 Gitignore suggestion
 Add config.json to .gitignore to keep filepaths private
-
 ```bash
 gitignore
 Copy
@@ -63,15 +49,11 @@ config.json
 ```
 
 ## 💡 Future Improvements
-Drag-and-drop support for CSV files and output folders
-
-Dark mode toggle
-
-Package as a standalone .exe with PyInstaller
-
-Add "Reset Preferences" button in the GUI
-
-Optional byte-swapping / endianness settings
+- Drag-and-drop support for CSV files and output folders
+- Dark mode toggle
+- Package as a standalone .exe with PyInstaller
+- Add "Reset Preferences" button in the GUI
+- Optional byte-swapping / endianness settings
 
 ## ⚠️ Disclaimer
 This project is for educational use only. Download content only if you have the right to do so. Respect content creators and platform terms of service.

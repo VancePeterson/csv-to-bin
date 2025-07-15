@@ -23,7 +23,7 @@ Below, users select a CSV file and an output location. Clicking **Convert** writ
 ---
 
 
-📂 File Format
+## 📂 File Format
 CSV files should contain hexadecimal byte values (e.g., 85,06,FF,7C)
 
 The app strips whitespace and empty values

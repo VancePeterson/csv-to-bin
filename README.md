@@ -17,7 +17,7 @@ Below, users select a CSV file and an output location. Clicking **Convert** writ
 - The app strips whitespace and empty values
 - Each value is converted to a raw byte (0x85, 0x06, etc.)
 
-🛠️ Customization
+## 🛠️ Customization
 Place your icons in a folder named icons/ next to main.py:
 
 ```bash
